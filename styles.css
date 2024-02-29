@@ -1,0 +1,94 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://th.bing.com/th/id/R.11c6436001629aca913497f55b2b4b74?rik=OGgkFzOmJ%2b9k8A&riu=http%3a%2f%2fsimply-secure.ca%2fwp-content%2fuploads%2f2021%2f03%2fResources_2.jpg&ehk=Q46v9Yso7aSWTsLfOLw67zX75uDjtHkL1teJ4mArBW4%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Basic styling for header */
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 200px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* Basic styling for hero banner */
+.hero-banner {
+    background-image: url('book.png');
+    background-size: cover;
+    color: #000000;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-banner p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}

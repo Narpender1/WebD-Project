@@ -1,0 +1,43 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url(https://th.bing.com/th/id/R.11c6436001629aca913497f55b2b4b74?rik=OGgkFzOmJ%2b9k8A&riu=http%3a%2f%2fsimply-secure.ca%2fwp-content%2fuploads%2f2021%2f03%2fResources_2.jpg&ehk=Q46v9Yso7aSWTsLfOLw67zX75uDjtHkL1teJ4mArBW4%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    margin-bottom: 15px;
+}
+
+.about-content h3 {
+    margin-bottom: 10px;
+}
+
+.about-content ul {
+    list-style-type: none;
+}
+
+.about-content ul li {
+    margin-bottom: 5px;
+}
